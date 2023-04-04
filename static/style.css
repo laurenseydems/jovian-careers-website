@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+/*     margin: 0;
+    padding: 0; */
+}
+
+body{
+    background: rgb(161, 194, 128);
+    font-family: helvetica, "sans-serif";
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    max-width: 1250px;
+    margin: auto;
+}
+
+h1, h2{
+    text-align:center;
+    font-size: 40px;  
+}
+
+h2{
+    font-size: 2rem;
+}
+
+#banner{
+    width: 100%;
+    height: 50vh;
+    object-fit:cover;    
+}
+
+p{
+    line-height: 1.5rem;
+}
+
+.centered{
+    text-align: center;
+}
+
+.centered button{
+    padding: 0.5rem;
+    background: white;
+}
+
+div.row {
+    background: white;
+}
+div.col-9, div.col-3{
+    border-bottom: 1px solid grey;
+    padding : 2rem;
+}
+
+div.col-3{
+    display:grid;
+    place-items:center;
+}

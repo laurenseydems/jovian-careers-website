@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Jovian Careers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <img src="/static/images/header.jpg" id="banner"> 
+    <main> 
+
+    <h1> Jovian Careers</h1>
+    <h2> About Jovian </h2>
+    <p>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in venenatis metus. Sed                     sagittis faucibus felis quis sagittis. Nunc rutrum felis ut justo fringilla, id fermentum odio                 venenatis. Curabitur at elit a erat varius pulvinar ut eu purus. Cras a neque in justo pulvinar                 pharetra ut sed dui. Nunc ac vulputate enim. Sed leo lorem, aliquam et sollicitudin pretium, vulputate vel eros. Ut eu nisi vitae tortor aliquam consectetur. Vestibulum sed magna a nulla dictum ultricies id vitae nisl. Integer efficitur, eros in lacinia fermentum, eros leo bibendum nibh, id molestie neque metus sed turpis. Nullam accumsan ullamcorper nisi feugiat sodales. Aenean sagittis, justo in aliquam accumsan, risus velit sodales diam, et varius mauris massa at purus.
+
+Integer ut malesuada purus. Mauris vel nibh odio. Aenean efficitur suscipit sem, ac porttitor leo eleifend in. Maecenas imperdiet imperdiet nulla, vitae rhoncus nibh accumsan vel. Proin dictum nisi vel est porta, et congue risus placerat. Duis libero orci, dictum ut commodo ut, ullamcorper quis nisi. Nulla interdum velit nec dignissim scelerisque.
+
+Sed ut dictum nunc. Morbi quis ipsum maximus, fermentum tortor eu, tempor mi. Suspendisse rhoncus porttitor odio ac lobortis. Aenean non elit dolor. Integer ultricies dapibus condimentum. Sed ac venenatis massa. Proin accumsan ante sed dictum dapibus. 
+    </p>
+
+    <h2> Job openings </h2>
+    <p>
+        {% for job in jobs %}
+            {%include 'jobitem.html' %}        
+        {% endfor %}
+    </p>
+            
+    <div class=centered>
+    <button> Contact Us </button>        
+    </div>
+    </main>
+</body>
+</html>
