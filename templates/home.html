@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
+    {% include 'nav.html' %}
     <img src="/static/images/header.jpg" id="banner"> 
     <main> 
 
@@ -22,7 +23,7 @@ Integer ut malesuada purus. Mauris vel nibh odio. Aenean efficitur suscipit sem,
 Sed ut dictum nunc. Morbi quis ipsum maximus, fermentum tortor eu, tempor mi. Suspendisse rhoncus porttitor odio ac lobortis. Aenean non elit dolor. Integer ultricies dapibus condimentum. Sed ac venenatis massa. Proin accumsan ante sed dictum dapibus. 
     </p>
 
-    <h2> Job openings </h2>
+    <h2> Current Job openings </h2>
     <p>
         {% for job in jobs %}
             {%include 'jobitem.html' %}        

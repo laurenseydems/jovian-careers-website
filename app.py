@@ -26,7 +26,14 @@ JOBS = [
         'title' : 'Scrum Bachelor',
         'location' : 'Tilburg, the Netherlands',
         'salary': "EUR 25.000"
-    }
+    },
+        {
+        'id' : 4,
+        'title' : "IoT thingy do-er",
+        'Location' : "remote",
+        'salary' : "+- 55.000"
+        }
+    
     ]
 
 @app.route("/")

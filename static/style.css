@@ -5,10 +5,14 @@
 }
 
 body{
-    background: rgb(161, 194, 128);
+    background: blanchedalmond;
     font-family: helvetica, "sans-serif";
     padding: 0;
     margin: 0;
+}
+
+.nav-container {
+    text-align:center;
 }
 
 main {
@@ -49,7 +53,7 @@ div.row {
 }
 div.col-9, div.col-3{
     border-bottom: 1px solid grey;
-    padding : 2rem;
+    padding : 1rem 2rem;
 }
 
 div.col-3{
