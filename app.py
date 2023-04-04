@@ -29,9 +29,9 @@ JOBS = [
     },
         {
         'id' : 4,
-        'title' : "IoT thingy do-er",
-        'Location' : "remote",
-        'salary' : "+- 55.000"
+        'title' : 'IoT thingy do-er',
+        'location' : 'Remote',
+        'salary' : '+- 55.000',
         }
     
     ]
